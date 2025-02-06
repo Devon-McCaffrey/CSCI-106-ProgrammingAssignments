@@ -25,8 +25,8 @@ public class SvgBuilder
 
     public SvgBuilder AddRectangle(int x, int y, int width, int height, string color)
     {
-        // Replace this line with your code
-        throw new NotImplementedException();
+        Buffer += string.Format(RECT_TEMPLATE, 0, 2, 3);
+        
 
         // Don't remove this!
         return this;
